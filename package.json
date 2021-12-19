@@ -7,8 +7,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.5.2",
     "hardhat": "^2.8.0",
     "hardhat-waffle": "0.0.1-security",
     "react": "^17.0.2",
@@ -39,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "gh-pages": "^3.2.3"
   }
 }
